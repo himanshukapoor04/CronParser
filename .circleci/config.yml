@@ -30,7 +30,7 @@ jobs:
           docker_layer_caching: false
       - run:
           name: Build and push Docker image
-          command: docker build -t himanshukapoor04/CronParser:1.0 .
+          command: docker build -t cronparser:1.0 .
             
 
 # Invoke jobs via workflows
